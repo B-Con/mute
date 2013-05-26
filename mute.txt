@@ -1,0 +1,114 @@
+[Adblock Plus 2.0]
+! Checksum: TODO
+! Title: Mute
+! Last modified: 26 May 2013 03:13 UTC
+! Expires: 5 days (update frequency)
+! License: Public Domain
+!
+! Homepage: https://github.com/B-Con/mute
+! Email: brad@bradconte.com
+! Bug Tracker: https://github.com/B-Con/mute/issues
+!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Rules
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! BLOGS
+!
+! A popular ID, but only blacklist because it's very generic.
+blogspot.com,wordpress.com,si.com,denverpost.com,theadvocate.com,nwaonline.com,theverge.com,arstechnica.com###comments
+! youtube.com
+##div#watch-discussion
+! Disqus
+~disqus.com##iframe[src*=disqus\.com\/embed\/comments]
+~disqus.com##div#disqus_thread
+! blogspot.com
+##iframe[src*=google\.com\/_\/widget\/render\/comments]
+! Primarily wordpress-based
+##div#comments-title
+##ol.commentlist
+##ul.commentlist
+##ol.comment-list
+##ul.comment-list
+##div#comments-list
+! theverge.com
+##div#comments_list
+! codinghorror.com
+##div.comments-body
+! hackerfactor.com
+##div.serendipity_comments
+! sixrevisions.com
+##.userComment
+! anandtech.com
+##.blog_comments
+! lwn.net
+##.CommentBox
+! osnews.com
+##div#commentblock
+# schneier.com
+##div.commentbody
+!
+! NEWSPAPERS
+!
+! nytimes.com, newsandsentinel.com
+##div#commentsContainer
+##div#commentsWell
+! washingtonpost.com
+##div[id^=echo_container_]
+! nydailynews.com
+##div#story-comments
+! latimes.com, baltimoresun.com, orlandosentinel.com
+##div#tugs_story_display
+! freep.com
+##ul#Posts
+! suntimes.com
+##div#commentsWrapper
+! philly.com
+##ul#commentList
+! dallasnews.com
+##div#commentsDiv
+! chron.com, sfgate.com
+##div#commentspage
+##div#pluckCommentsContainer
+! denverpost.com, others
+##div#iupload_comments
+! azstarnet.com
+##div.comment_main
+! jsonline.com
+##div#comments-list
+! online.wsj.com
+##div#discussionThreadBox
+! nola.com, cleveland.com
+##div#rtb-comments
+! huffingtonpost.co.uk
+##div[id*=comments_block]
+! thesun.co.uk
+##div.comment-rig
+! ft.com
+##div#inferno-comments
+! faz.net
+##div#commentsView
+! krone.at
+##div#kmcom_content_bereich
+!
+! Embedded Facebook comments
+!
+~facebook.com##fb\:comments
+~facebook.com##iframe[src*=facebook\.com\/plugins\/comments]
+~facebook.com##div.fb_iframe_widget
+!
+! Embedded Tweets
+!
+! huffingtonpost.co.uk
+~twitter.com##[id=twitter_module]
+! per twitter's guidelines
+~twitter.com##.twitter-tweet
+! TODO: Investigate this
+!##div[id^=twitter-widget]
+!
+! MISC
+!
+! gocomics.com, blog.cryptographyengineering.com
+##.comment-thread
+##.comment-thread
