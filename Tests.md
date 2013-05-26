@@ -36,7 +36,7 @@ These pages have comments that should be blocked. This list should include pages
 ###Negative Tests
 These pages have comments that should **not** be blocked.
 
-* forums.xkcd.com/viewtopic.php?f=7&t=18676&p=3314253
+* http://forums.xkcd.com/viewtopic.php?f=7&t=18676&p=3314253
 * http://www.reddit.com/r/blog/comments/g5i83/so_long_and_thanks_for_all_the_postcards/
 * https://news.ycombinator.com/item?id=5326511
 * https://www.facebook.com/facebook
