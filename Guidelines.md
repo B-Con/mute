@@ -24,11 +24,11 @@ Example:
 
 selects any tag with the ID of `comment` on all domains ending in `example.com`. [More info](http://adblockplus.org/en/faq_internal#elemhide).
 
-Another example:
+A more detailed example:
 
-    ~site.org##div[id*=text]
+    ~site.org##div[id*=text],div.wrapper
 
-selects any `div` element with an id containing `text`, but doesn't apply the rule to pages on `site.org`.
+selects any `div` element with an id containing `text` and with the class of `wrapper`, but doesn't apply the rule to pages on `site.org`.
 
 Contributing
 ===
