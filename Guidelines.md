@@ -37,12 +37,3 @@ If submitting a pull request, please include URLs that are being fixed to behave
 Known Issues
 ===
 Text headers *for* the comments (such as a typical comment header: "23 Responses") are not as easy to block as the comments themselves. Rules to hide comments should include as much of the comment area as possible, including the comment headers, but it is not always practicle to include the headers. Leaving comment headers unblocked is acceptable when pragmatically necessary.
-
-Site TODO
-===
-* imgur
-* flickr
-* techcrunch
-* gizmodo
-* the other starred repo
-* personal RSS reader
