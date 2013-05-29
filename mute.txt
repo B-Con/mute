@@ -18,6 +18,11 @@
 ! 3rd party
 !
 
+! Disqus. A variety of div's and IDs show up, but div#disqus_thread is the highest level that's always present.
+~disqus.com##iframe[src*=disqus\.com\/embed\/comments]
+~disqus.com##div#disqus_thread
+~disqus.com##div[id$=disqus]
+
 ! Facebook
 ~facebook.com##fb\:comments
 ~facebook.com##iframe[src*=facebook\.com\/plugins\/comments]
@@ -28,17 +33,16 @@
 ~twitter.com##.twitter-tweet
 !TODO: Investigate this: ##div[id^=twitter-widget]
 
-! Disqus. A variety of div's and IDs show up, but div#disqus_thread is the highest level that's always present.
-~disqus.com##iframe[src*=disqus\.com\/embed\/comments]
-~disqus.com##div#disqus_thread
-~disqus.com##div[id$=disqus]
+! LiveFyre
+~livefyre.com##.fyre
 
 !
 ! BLOGS
 !
 
 ! A popular ID, but only blacklist because it's very generic.
-arstechnica.com,blogspot.com,denverpost.com,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
+abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com###comments
+nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
 ! youtube.com
 ##div#watch-discussion
 ! blogspot.com
@@ -50,8 +54,9 @@ arstechnica.com,blogspot.com,denverpost.com,nwaonline.com,si.com,techcrunch.com,
 ##.comment-list
 ##div#comments-list
 ###comment_list
-! Blogger-based blogs hack
+! Blogger-based blogs hacks
 ##div.post-outer > div#comments, div.post-outer > div.comments
+##div#comments > dl#comments-block
 ! theverge.com
 ##div#comments_list
 ! A common side-kick class for Wordpress sites not on Wordpress.com.
@@ -80,9 +85,11 @@ arstechnica.com,blogspot.com,denverpost.com,nwaonline.com,si.com,techcrunch.com,
 imgur.com##div#under-image
 ! gawker.com, gizmodo.com
 ##div.replies-wrapper
+! dilbert.com
+##.SB_Comments
 
 !
-! NEWSPAPERS
+! NEWS
 !
 
 ! nytimes.com, newsandsentinel.com
@@ -109,10 +116,10 @@ imgur.com##div#under-image
 ##div#iupload_comments
 ! azstarnet.com
 ##div.comment_main
-! jsonline.com
-##div#comments-list
 ! online.wsj.com
 ##div#discussionThreadBox
+! blogs.wsj.com
+##div.postcomments
 ! nola.com, cleveland.com
 ##div#rtb-comments
 ! huffingtonpost.co.uk
@@ -125,8 +132,29 @@ imgur.com##div#under-image
 ##div#commentsView
 ! krone.at
 ##div#kmcom_content_bereich
-! dilbert.com
-##.SB_Comments
+! alarabiya.net
+##div.readers_comments
+! gulfnews.com
+##div#readersComments
+! anarchistnews.org
+##div#comments,div.comment-wrapper
+! bbc.co.uk
+##div.dna-comments_module
+! buzzfeed.com/
+###responses
+! cbc.ca
+###socialcomments
+! guardian.co.uk, TODO: more intelligent iframe rules?
+##iframe[src*=commentpage]
+! dailymail.co.uk
+##div#reader-comments
+! economist.com
+###comments-area
+##.view-comments
+! express.co.uk
+###comments_queue
+! france24.com
+##div#comments-only
 
 !
 ! MISC
