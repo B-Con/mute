@@ -1,8 +1,8 @@
 Mute - An AdBlock Plus Filter
 ===
-Mute is an AdBlock Plus filter for user comments. It hides user-generated social comments from web wites where the comments aren't the primary focus, such as YouTube, blogs, and newspapers. It does not affect sites where user comments are the primary focus, such as reddit and general forums.
+Mute is an AdBlock Plus filter for user comments. It hides user-generated social comments from web pages where the comments aren't the primary focus, such as YouTube, blogs, and newspapers. It does not affect sites where user comments are the primary focus, such as reddit and general forums.
 
-The goal is to remove embedded comments where other content is the focus, but leave comments that *are* the focus. For example, comments on YouTube videos and blog posts should be blocked, whereas reviews on Amazon and comments on Facebook or reddit should not be touched. However, Facebook comments embedded in articles on 3rd party sites should be removed.
+The goal is to remove embedded comments from pages where other content is the focus, but leave comments that *are* the focus. For example, comments on YouTube videos and blog posts should be blocked, whereas reviews on Amazon and comments on Facebook or reddit should not be touched. However, Facebook comments embedded in articles on news site should be removed.
 
 How To Use It
 ---

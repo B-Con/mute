@@ -3,6 +3,8 @@ Design
 * List what domain(s) a rule was taken from. We need to know why a rule is on the list.
 * Keep the number of domain-specific rules to a minimum. Rules that are unique to a site are OK, but don't specify the domain unless necessary. This way it can work on other sites, perhaps ones that use the same content scheme.
 * Prefer general rules over specific ones. (The natural caution here is to avoid overly general rules that may catch elements used in other contexts.)
+* Don't block non-inline content. If comments are on a page by themselves, that's OK. Viewing them means the user sought them out. Our only concern are comments that are included alongside other content.
+* Avoid blacklisting domains for `#comments`. It's a very powerful rule and works in many places, but avoid using it unless necessary. (This applies so long as `#comments` remains a blacklist-only rule.)
 
 Developer Notes
 ===

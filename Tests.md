@@ -39,6 +39,8 @@ These pages have comments that should be blocked. This list should include pages
 * http://www.huffingtonpost.co.uk/2012/12/04/youth-threw-homeless-mans-rabbit-dublin-sentenced_n_2236642.html
 * http://www.ft.com/intl/cms/s/2/b8803352-c281-11e2-ab66-00144feab7de.html#axzz2UNo8RuBX
 * http://www.france24.com/en/20130528-china-recognises-bubbly-champagne-france-wine
+* http://www.news24.com/Multimedia/Africa/African-Union-celebrates-50-years-20130527
+* http://www.scientificamerican.com/video.cfm?id=flying-car-for-the-masses-set-for-t2013-05-23
 
 ###Negative Tests
 These pages have comments that should **not** be blocked.

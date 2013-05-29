@@ -23,18 +23,28 @@
 ~disqus.com##div#disqus_thread
 ~disqus.com##div[id$=disqus]
 
+! Kinja (gawker.com, gizmodo.com, io9.com, others)
+~kinja.com##div.replies-wrapper
+~kinja.com##div.js_replies
+
 ! Facebook
 ~facebook.com##fb\:comments
 ~facebook.com##iframe[src*=facebook\.com\/plugins\/comments]
 ~facebook.com##div.fb_iframe_widget
 
+! LiveFyre
+~livefyre.com##div.fyre-widget
+~livefyre.com##div#livefyre
+
+! Realtidbits
+~realtidbits.com##div#realtidbits-comments
+~realtidbits.com##div#rtb-comments
+~realtidbits.com##div.rtb-apps-comments-container
+
 ! Twitter
 ~twitter.com##[id=twitter_module]
 ~twitter.com##.twitter-tweet
 !TODO: Investigate this: ##div[id^=twitter-widget]
-
-! LiveFyre
-~livefyre.com##.fyre
 
 !
 ! BLOGS
@@ -42,7 +52,7 @@
 
 ! A popular ID, but only blacklist because it's very generic.
 abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com###comments
-nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
+propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
 ! youtube.com
 ##div#watch-discussion
 ! blogspot.com
@@ -50,10 +60,12 @@ nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com##
 ! Primarily Wordpress-based
 ##div#comments-title
 ##.commentlist
-##div#commentlist
+###commentlist
 ##.comment-list
-##div#comments-list
+###comment-list
 ###comment_list
+###comments-list
+###comments_list
 ! Blogger-based blogs hacks
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block
@@ -83,8 +95,6 @@ nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com##
 !Careful, this seems potentially too broad: ##div#comments-body
 ! imgur.com
 imgur.com##div#under-image
-! gawker.com, gizmodo.com
-##div.replies-wrapper
 ! dilbert.com
 ##.SB_Comments
 
@@ -95,6 +105,8 @@ imgur.com##div#under-image
 ! nytimes.com, newsandsentinel.com
 ##div#commentsContainer
 ##div#commentsWell
+! ninemsn.com.au
+##div#CommentsContainer
 ! washingtonpost.com
 ##div[id^=echo_container_]
 ! nydailynews.com
@@ -105,9 +117,11 @@ imgur.com##div#under-image
 ##ul#Posts
 ! suntimes.com
 ##div#commentsWrapper
-! philly.com
-##ul#commentList
-! dallasnews.com
+! philly.com, scientificamerican.com, thejournal.ie
+###commentList
+! salon.com
+##div.commentList
+! dallasnews.com, tampabay.com
 ##div#commentsDiv
 ! chron.com, sfgate.com
 ##div#commentspage
@@ -120,8 +134,6 @@ imgur.com##div#under-image
 ##div#discussionThreadBox
 ! blogs.wsj.com
 ##div.postcomments
-! nola.com, cleveland.com
-##div#rtb-comments
 ! huffingtonpost.co.uk
 ##div[id*=comments_block]
 ! thesun.co.uk
@@ -155,6 +167,24 @@ imgur.com##div#under-image
 ###comments_queue
 ! france24.com
 ##div#comments-only
+! haaretz.com
+##div#commentsTab
+! mirror.co.uk
+##div.pluck-wrap
+! newrepublic.com
+##div.conversation
+! newser.com
+##div#CommentsShort
+! reuters.com
+##div#articleComments
+! rferl.org
+##div.article_comments
+! thestar.com
+##div#article-comments
+! rt.com
+##div.b-comments_page
+! slate.com
+##div#article_comment_box
 
 !
 ! MISC
