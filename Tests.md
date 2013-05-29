@@ -38,6 +38,7 @@ These pages have comments that should be blocked. This list should include pages
 * http://www.nola.com/education/index.ssf/2013/05/bicycling_faux_pas_snags_new_o.html#incart_most-read
 * http://www.huffingtonpost.co.uk/2012/12/04/youth-threw-homeless-mans-rabbit-dublin-sentenced_n_2236642.html
 * http://www.ft.com/intl/cms/s/2/b8803352-c281-11e2-ab66-00144feab7de.html#axzz2UNo8RuBX
+* http://www.france24.com/en/20130528-china-recognises-bubbly-champagne-france-wine
 
 ###Negative Tests
 These pages have comments that should **not** be blocked.
