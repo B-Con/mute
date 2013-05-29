@@ -31,6 +31,7 @@
 ~facebook.com##fb\:comments
 ~facebook.com##iframe[src*=facebook\.com\/plugins\/comments]
 ~facebook.com##div.fb_iframe_widget
+~facebook.com##div.fb-comments
 
 ! LiveFyre
 ~livefyre.com##div.fyre-widget
