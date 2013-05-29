@@ -36,6 +36,8 @@ Contributing
 ===
 If submitting a pull request, please include URLs that are being fixed to behave properly in the commit message.
 
-Known Issues
+Known Issues / TODO
 ===
-Text headers *for* the comments (such as a typical comment header: "23 Responses") are not as easy to block as the comments themselves. Rules to hide comments should include as much of the comment area as possible, including the comment headers, but it is not always practicle to include the headers. Leaving comment headers unblocked is acceptable when pragmatically necessary.
+* Text headers *for* the comments (such as a typical comment header: "23 Responses") are not as easy to block as the comments themselves. Rules to hide comments should include as much of the comment area as possible, including the comment headers, but it is not always practicle to include the headers. Leaving comment headers unblocked is acceptable when pragmatically necessary.
+
+* Currently the filter is served straight from GitHub. Host it elsewhere if it gets popular.
