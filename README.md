@@ -1,6 +1,6 @@
 Mute - An AdBlock Plus Filter
 ===
-Who hasn't innocently started to read comments on a newspaper article, blog post, or YouTube video only to deeply regret it? How many pointless debates have we been sucked into simply because we accidentally noticed that [someone on the Internet was wrong](http://xkcd.com/386/)? We make a mental vow to never read comments again, but alas, we fail.
+Who hasn't innocently started to read comments on a newspaper article, blog post, or YouTube video only to deeply regret it? And haven't we all gotten into a pointless debate simply because we accidentally noticed that [someone on the Internet was wrong](http://xkcd.com/386/)? We make a mental vow to never read comments again, but alas, we fail.
 
 **Mute** is an AdBlock Plus filter for user comments. It transparently hides user-generated comments so you can browse the Internet with less stupidity clawing at your eyeballs.
 
