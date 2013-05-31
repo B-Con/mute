@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: TODO
+! Checksum: GM9Ek8Pz7PY0lg3DEyXtqQ
 ! Title: Mute
 ! Expires: 5 days
 !
@@ -115,7 +115,7 @@ imgur.com##div#under-image
 ##ul#Posts
 ! suntimes.com
 ##div#commentsWrapper
-! philly.com, scientificamerican.com, thejournal.ie
+! philly.com, scientificamerican.com, thejournal.ie, MSDN blogs
 ###commentList
 ! salon.com
 ##div.commentList
