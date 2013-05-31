@@ -32,6 +32,9 @@
 ~facebook.com##div.fb_iframe_widget
 ~facebook.com##div.fb-comments
 
+! Jive
+~jive.com##div#jive-comments
+
 ! LiveFyre
 ~livefyre.com##div.fyre-widget
 ~livefyre.com##div#livefyre
