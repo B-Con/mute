@@ -8,6 +8,8 @@ Design
 
 Developer Notes
 ===
+How it Works
+---
 Since comments are usually inline on a page, we can't use AdBlock's URL blocking. Instead we have to rely on its [element hiding](http://adblockplus.org/en/filters#elemhide).
 
 A quick summary of the syntax. Element hiding rules are written in the form:
@@ -32,9 +34,18 @@ Another example:
 
 selects any `div` element with an id containing `text`, but doesn't apply the rule to pages on `site.org`.
 
+Structure
+---
+There are two filters:
+
+* `mute-devel.txt` contains all the filter rules along with comments, explaining why the rules exist
+* `mute.txt` is the filter without the unnecessary comments and whitespace and with a valid checksum, it is the file that everyone uses
+
+`mute-devel.txt` is where the work is done, then a script is used to convert it to `mute.txt`.
+
 Contributing
 ===
-If submitting a pull request, please include URLs that are being fixed to behave properly in the commit message.
+If submitting a pull request, please include sample URLs that are being fixed to behave properly in the commit message.
 
 Known Issues / TODO
 ===

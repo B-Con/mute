@@ -1,7 +1,12 @@
 # Perl code for calculating the filter checksum. From: http://adblockplus.org/en/faq_internal
 use Digest::MD5 qw(md5_base64);
 
-my $filename = "../mute.txt";
+if ($#ARGV != 0) {
+	print "Usage: calc-checksum [filename]\n";
+	exit;
+}
+
+my $filename = $ARGV[0];
 
 my $data;
 open(my $fh, '<', $filename) or die "Could not open file $filename";
