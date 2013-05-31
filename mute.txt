@@ -1,12 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NLQTqXIGKv6maACsMBdsDQ
-! Last Modified: 2013-05-31 @ 01:33:28
 ! Title: Mute
+! Last Modified: 2013-05-31 @ 02:02:10 CDT
+! Checksum: 3wyMfXNXzslps4ffA+Okbw
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
 ! Homepage: mute.bradconte.com
 ! Bug Tracker: https://github.com/B-Con/mute/issues
+!
 ~disqus.com##iframe[src*=disqus\.com\/embed\/comments]
 ~disqus.com##div#disqus_thread
 ~disqus.com##div[id$=disqus]

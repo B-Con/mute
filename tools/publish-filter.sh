@@ -9,7 +9,7 @@ tail -n +11 "$FILE_IN" | grep -v -E "(^!|^[[:space:]]*$)" >> "$FILE_OUT"
 
 # Add a timestamp.
 mv "$FILE_OUT" "${FILE_OUT}.tmp"
-sed "s/! Last Modified:.*/! Last Modified: `date +"%F @ %T"`/" < "${FILE_OUT}.tmp" > "$FILE_OUT"
+sed "s/! Last Modified:.*/! Last Modified: `date +"%F @ %T %Z"`/" < "${FILE_OUT}.tmp" > "$FILE_OUT"
 rm "${FILE_OUT}.tmp"
 
 # Generate and include the checksum.
