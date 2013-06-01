@@ -28,7 +28,6 @@ These pages have comments that should be blocked. This list should include pages
 * http://www.nydailynews.com/life-style/real-estate/bloomberg-buying-real-estate-exit-report-article-1.1353286
 * http://www.latimes.com/news/local/la-me-0525-condor-permit-20130525,0,5676309.story
 * http://www.suntimes.com/news/metro/20337645-418/electric-daisy-carnival-in-joliet-promises-fixes-after-noise-complaints.html
-* http://www.azcentral.com/community/pinal/articles/20130517johnson-utilities-history-violations-complaints-outrage.html?nclick_check=1
 * http://www.philly.com/philly/news/20130525_Judge_holds_Schaibles__fearing_sects_will_shelter_them.html
 * http://www.dallasnews.com/news/crime/headlines/20130524-five-men-face-capital-murder-charges-in-recent-dallas-slayings.ece
 * http://blog.chron.com/ultimateastros/2013/05/25/as-jump-on-astros-early-in-primetime-rout/
@@ -54,11 +53,9 @@ These pages have comments that should **not** be blocked.
 
 Performing Tests
 ---
-TODO: How do filter hit counts work exactly?
-
 To perform the tests:
 
-1. add the filter to AdBlock
-2. preferably, disable any other AdBlock filters
-3. visit each page with blockable comments and confirm there are no visible user comments; to be thorough check the AdBlock filter to confirm there is at least one hit on that page for the filter
-4. visit each page without blockable comments and verify that the comments are still visible; also check the hit count in AdBlock for that filter to ensure there are no hits for the page
+1. Add the mute filter to AdBlock.
+2. Optionally, disable any other AdBlock filters. (A good idea to do from time to time.)
+3. Visit each page with blockable comments and confirm there are no visible user comments. To be thorough, compare the page with and without AdBlock enabled.
+4. Visit each page without blockable comments and verify that the comments are still visible; also check the hit count in AdBlock for that filter to ensure there are no hits for the page.

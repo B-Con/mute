@@ -61,7 +61,6 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ! blogspot.com
 ##iframe[src*=google\.com\/_\/widget\/render\/comments]
 ! Primarily Wordpress-based
-##div#comments-title
 ##.commentlist
 ###commentlist
 ##.comment-list
@@ -69,6 +68,9 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ###comment_list
 ###comments-list
 ###comments_list
+! ...and accompanying comment headers.
+##div#comments-title
+##a.comments-link
 ! Blogger-based blogs hacks
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block
@@ -119,6 +121,8 @@ imgur.com##div#under-image
 ! freep.com
 ##ul#Posts
 ! suntimes.com
+##div#commentLink
+##div#commentLinks
 ##div#commentsWrapper
 ! philly.com, scientificamerican.com, thejournal.ie, MSDN blogs
 ###commentList
