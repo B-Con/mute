@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Mute : Mute is an AdBlock filter for hiding user comments where they are not the primary focus. Surf without the noise." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
+
+    <title>Mute</title>
+
+	<script type="text/javascript">
+	  function logDownload(downloadMethod)
+	  {
+		_gaq.push(['_trackEvent', 'Downloads', downloadMethod, 'mute.txt', 1, true]);
+		return true;
+	  }
+
+	  function setLogging()
+	  {
+		var downloadButton = document.getElementById('install-btn');
+		var downloadLink = document.getElementById('install-link');
+
+		downloadButton.onmouseup = function(){ return logDownload('Button'); }
+		downloadLink.onmouseup = function(){ return logDownload('Link'); }
+	  }
+
+	  window.onload = setLogging;
+	</script>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/B-Con/mute">View on GitHub</a>
+
+          <h1 id="project_title">Mute</h1>
+          <h2 id="project_tagline">Mute is an AdBlock filter for hiding user comments. Surf without the noise.</h2>
+
+		  <section id="downloads">
+			<div>
+			<a id="install-btn" title="Install the Mute filter" href="abp:subscribe?location=http://mute.bradconte.com/mute.txt&title=Mute Comments">Install Mute</a>
+			</div>
+		  </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="mute---an-adblock-plus-filter" class="anchor" href="#mute---an-adblock-plus-filter"><span class="octicon octicon-link"></span></a>Mute - An AdBlock Plus Filter</h1>
+
+<p>Who hasn't innocently started to read comments on a newspaper article, blog post, or YouTube video only to deeply regret it? And haven't we all gotten into a pointless debate simply because we accidentally noticed that <a href="http://xkcd.com/386/">someone on the Internet was wrong</a>? We make a mental vow to never read comments again, but alas, we fail.</p>
+
+<p><strong>Mute</strong> is an AdBlock Plus filter for user comments. It transparently hides user-generated comments so you can browse the Internet with less stupidity clawing at your eyeballs.</p>
+
+<p>Mute removes comments from web pages where the comments aren't the primary focus, such as YouTube, blogs, and newspapers, but it leaves comments that are the focus, such as user reviews on Amazon and comments on Facebook, reddit, or forums. User generated content that is the central focus should remain untouched. In short, the goal is to filter out the noise.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Mute is an AdBlock Plus add-on filter, so you must first have the <a href="http://adblockplus.org">AdBlock Plus</a> extension installed in your web browser.</p>
+
+<p>Add the Mute filter to AdBlock using <a id="install-link" href="abp:subscribe?location=http://mute.bradconte.com/mute.txt&title=Mute Comments" onMouseUp="_gaq.push(['_trackEvent', 'Downloads', 'Link', 'mute.txt', 1, true]); return true;">this auto-add link</a>. Alternatively, use <a href="http://adblockplus.org/en/getting_started#add-subscription">these manual steps</a>, summarized here:</p>
+
+<ol>
+<li>Click AdBlock and select "Filter Preferences".</li>
+<li>Under the "Filter subscriptions" tab click "Add filter subscription" then "add different subscription".</li>
+<li>At the bottom, choose a subscription title like "Mute Comments" and enter the following into the filter list location: <code>http://mute.bradconte.com/mute.txt</code>
+</li>
+</ol><h3>
+<a name="what-if-i-want-to-view-blocked-comments" class="anchor" href="#what-if-i-want-to-view-blocked-comments"><span class="octicon octicon-link"></span></a>What if I want to view blocked comments?</h3>
+
+<p>Disabling AdBlock will disable this filter as well. You can disable AdBlock Plus through the normal means, such as on a specific page or an entire site.</p>
+
+<h2>
+<a name="contribute" class="anchor" href="#contribute"><span class="octicon octicon-link"></span></a>Contribute</h2>
+
+<p>Requests are tracked through this project's <a href="https://github.com/B-Con/mute/issues">GitHub issue tracker</a>. Create an issue there if:</p>
+
+<ul>
+<li>something is blocked when it shouldn't be</li>
+<li>something isn't blocked when it should be</li>
+</ul><p>When submitting an issue, include the URL (not the site name, not the domain, the full URL) and the browser you were using.</p>
+
+<p>Contributions are welcome. If you want to help, please see the <a href="https://github.com/B-Con/mute">GitHub repository</a>.</p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Mute maintained by <a href="https://github.com/B-Con">B-Con</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    <script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-35982763-3']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+  </body>
+</html>
