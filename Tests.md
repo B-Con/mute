@@ -50,6 +50,8 @@ These pages have comments that should **not** be blocked.
 * https://www.facebook.com/facebook
 * http://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-an-unsorted-array
 * http://www.amazon.com/Ray-Ban-RB2132-New-Wayfarer-Sunglasses/dp/B003CIP4TE/
+* https://aur.archlinux.org/packages/yaourt/
+* http://thesandtrap.com/products/orange-whip-training-aid/reviews/4590
 
 Performing Tests
 ---
