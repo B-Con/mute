@@ -70,7 +70,7 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ###comments_list
 ! ...and accompanying comment headers.
 ##div#comments-title
-##a.comments-link
+~stackexchange.com,~stackoverflow.com##a.comments-link
 ! Blogger-based blogs, a couple hacks
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block
