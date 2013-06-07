@@ -1,7 +1,12 @@
 #!/bin/sh
 
-FILE_IN="../mute-devel.txt"
-FILE_OUT="../mute.txt"
+if [ $# -ne 1 -o ! -d "$1" ]; then
+	echo "Usage: publish-filter.sh [dir]" >&2
+	exit 1
+fi
+
+FILE_IN="$1/mute-devel.txt"
+FILE_OUT="$1/mute.txt"
 
 # Remove unnecessary comments and lines with just whitespace.
 head -n 10 "$FILE_IN" > "$FILE_OUT"

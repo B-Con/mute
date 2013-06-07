@@ -60,13 +60,18 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ##div#watch-discussion
 ! blogspot.com
 ##iframe[src*=google\.com\/_\/widget\/render\/comments]
-! Primarily Wordpress-based
+! Very universally popular, includes Wordpress
 ##.commentlist
 ###commentlist
 ##.comment-list
 ###comment-list
+##.comment_list
 ###comment_list
+##.commentslist
+###commentslist
+##.comments-list
 ###comments-list
+##.comments_list
 ###comments_list
 ! ...and accompanying comment headers.
 ##div#comments-title
