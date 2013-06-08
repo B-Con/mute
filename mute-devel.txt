@@ -2,7 +2,7 @@
 ! Title: Mute
 ! Last Modified: X
 ! Checksum: X
-! Expires: 5 days
+! Expires: 1 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
 ! Homepage: mute.bradconte.com

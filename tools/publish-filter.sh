@@ -18,7 +18,8 @@ sed "s/! Last Modified:.*/! Last Modified: `date +"%F @ %T %Z"`/" < "${FILE_OUT}
 rm "${FILE_OUT}.tmp"
 
 # Generate and include the checksum.
-CHECKSUM="`perl calc-checksum.pl $FILE_OUT`"
+CALC_PATH="`dirname $0`/calc-checksum.pl"
+CHECKSUM="`perl $CALC_PATH $FILE_OUT`"
 mv "$FILE_OUT" "${FILE_OUT}.tmp"
 sed "s|! Checksum:.*|! Checksum: ${CHECKSUM}|" < "${FILE_OUT}.tmp" > "$FILE_OUT"
 rm "${FILE_OUT}.tmp"
