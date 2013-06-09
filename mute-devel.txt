@@ -97,8 +97,8 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ##.CommentBox
 ! osnews.com
 ##div#commentblock
-! schneier.com
-##div.commentbody
+! schneier.com, div.commentbody by itself catches false positives.
+schneier.com##div.commentbody
 ! phys.org (and not a typo below)
 ##section#comments,section.coments
 ! financialcryptography.com
@@ -161,7 +161,7 @@ imgur.com##div#under-image
 ! gulfnews.com
 ##div#readersComments
 ! anarchistnews.org
-##div#comments,div.comment-wrapper
+##div#comments.comment-wrapper
 ! bbc.co.uk
 ##div.dna-comments_module
 ! buzzfeed.com/
