@@ -17,10 +17,10 @@
 ! 3rd party
 !
 
-! Disqus. A variety of div's and IDs show up, but div#disqus_thread is the highest level that's always present.
+! Disqus
 ~disqus.com##iframe[src*=disqus\.com\/embed\/comments]
 ~disqus.com##div#disqus_thread
-~disqus.com##div[id$=disqus]
+~disqus.com##div.dsq-widget
 
 ! Kinja (gawker.com, gizmodo.com, io9.com, others)
 ~kinja.com##div.replies-wrapper
