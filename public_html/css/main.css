@@ -1,0 +1,188 @@
+/*******************************************************************************
+MeyerWeb Reset
+*******************************************************************************/
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display:            block;
+}
+
+/*******************************************************************************
+Theme Styles
+*******************************************************************************/
+
+body {
+  box-sizing:         border-box;
+  color:              #303030;
+  background:         #f2f2f2;
+  font-size:          16px;
+  font-family:        'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  line-height:        1.5;
+  padding:            0;
+  margin:             0;
+  -webkit-font-smoothing: antialiased;
+}
+
+header, footer {
+  margin:             0;
+  padding:            20px 0;
+  background:         #339933; /*#7AC142;*/
+}
+
+h1 {
+  font-size:          36px;
+  font-weight:        bold;
+}
+
+h2 {
+  font-size:          32px;
+}
+
+h3 {
+  font-size:          24px;
+}
+
+p {
+  margin:             10px 0 15px 0;
+}
+
+#main_content {
+  padding-top:        20px;
+}
+
+#main_content a {
+  color:              #339933;
+  text-decoration:    underline;
+}
+
+#main_content a:hover {
+  color:              #303030;
+}
+
+footer a {
+  color:              #000;
+  text-decoration:    underline;
+}
+
+footer a:hover {
+  color:              #303030;
+}
+
+em {
+  font-style:         italic;
+}
+
+strong {
+  font-weight:        bold;
+}
+
+
+/*******************************************************************************
+Full-Width Styles
+*******************************************************************************/
+
+header .inner {
+  overflow:           show;
+}
+
+.inner {
+  margin:             0 auto;
+  max-width:          640px;
+  padding:            0;
+  position:           relative;
+}
+
+#title {
+  margin:             0;
+  color:              #fff;
+  font-size:          46px;
+  font-weight:        700;
+}
+
+#tagline {
+  color:              #fff;
+  font-size:          24px;
+  background:         none;
+  padding:            15px 0;
+}
+
+#logo-wrapper {
+  float:              right;
+  height:             200px;
+}
+
+#clear {
+  clear: both;
+}
+
+#install-blk {
+  position:           absolute;
+  bottom:             -45px;   /* 25 for button, 20 for padding */
+}
+
+/* Filter Install Button */
+#install-btn {
+  display:            block;
+  height:             50px;
+  width:              200px;
+  background:         #EB2323; /*#0076DC;*/
+
+  color:              #f2f2f2;
+  font:               bold 17px/50px Helvetica, Verdana, sans-serif;
+  text-decoration:    none;
+  text-align:         center;
+  text-transform:     uppercase;
+
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+       border-radius: 7px;
+
+  -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  -moz-box-shadow:    2px 2px 8px rgba(0,0,0,0.3);
+       box-shadow:    2px 2px 8px rgba(0,0,0,0.3);
+}
+
+#install-btn:hover {
+  background:         #339933;
+
+  -webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+  -moz-box-shadow:    2px 2px 15px rgba(0,0,0,0.3);
+       box-shadow:    2px 2px 15px rgba(0,0,0,0.3);
+}
+
+/*******************************************************************************
+Small Device Styles
+*******************************************************************************/
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size:        14px;
+  }
+
+  #.inner {
+    min-width:        360px;
+    max-width:        480px;
+  }
+
+  #logo-wrapper {
+    float:            none;
+    height:           200px;
+  }
+
+  #project_title {
+    font-size:        32px;
+  }
+
+  h1 {
+    font-size:        28px;
+  }
+
+  h2 {
+    font-size:        24px;
+  }
+
+  h3 {
+    font-size:        21px;
+  }
+}

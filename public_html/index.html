@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Mute : Mute is an AdBlock filter for hiding user comments where they are not the primary focus. Surf without the noise." />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
 
     <title>Mute</title>
 
@@ -26,80 +26,107 @@
 		downloadLink.onmouseup = function(){ return logDownload('Link'); }
 	  }
 
-	  window.onload = setLogging;
+	  //window.onload = setLogging;
 	</script>
   </head>
 
   <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <!-- <a id="forkme_banner" href="https://github.com/B-Con/mute">View on GitHub</a> -->
+  <!-- HEADER -->
+  <header>
+	<div class="inner">
+	  <div id="logo-wrapper">
+		<img id="logo" src="img/mute-logo.png" height="200px" width="200px" alt="Mute Logo" title="Silence the trolls!" />
+	  </div>
 
-          <h1 id="project_title">Mute</h1>
-          <h2 id="project_tagline">Mute is an AdBlock filter for hiding user comments. Surf without the noise.</h2>
+	  <h1 id="title">Mute</h1>
+	  <div id="tagline">Mute is an AdBlock filter for hiding user comments. Surf without the noise.</div>
 
-		  <section id="downloads">
-			<div>
-			<a id="install-btn" title="Install the Mute filter" href="abp:subscribe?location=http://mute.bradconte.com/mute.txt&title=Mute Comments">Install Mute</a>
-			</div>
-		  </section>
-        </header>
-    </div>
+	  <!-- Hack for aligning the logo with the tagline text. -->
+	  <div id="clear"></div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="mute---an-adblock-plus-filter" class="anchor" href="#mute---an-adblock-plus-filter"><span class="octicon octicon-link"></span></a>Mute - An AdBlock Plus Filter</h1>
+	  <div id="install-blk">
+		<a id="install-btn" title="Install the Mute filter" href="abp:subscribe?location=http://mute.bradconte.com/mute.txt&title=Mute Comments">Install Mute</a>
+	  </div>
+	</div>
+  </header>
 
-<p>Who hasn't innocently started to read comments on a newspaper article, blog post, or YouTube video only to deeply regret it? And haven't we all gotten into a pointless debate simply because we accidentally noticed that <a href="http://xkcd.com/386/">someone on the Internet was wrong</a>? We make a mental vow to never read comments again, but alas, we fail.</p>
+  <!-- MAIN CONTENT -->
+  <section id="main_content">
+	<div class="inner">
 
-<p><strong>Mute</strong> is an AdBlock Plus filter for user comments. It transparently hides user-generated comments so you can browse the Internet with less stupidity clawing at your eyeballs.</p>
+<h1>Mute - An AdBlock Filter</h1>
 
-<p>Mute removes comments from web pages where the comments aren't the primary focus, such as YouTube, blogs, and newspapers, but it leaves comments that are the focus, such as user reviews on Amazon and comments on Facebook, reddit, or forums. User generated content that is the central focus should remain untouched. In short, the goal is to filter out the noise.</p>
+<p>
+Who hasn't innocently started to read the user comments on a newspaper article, blog post, or YouTube video only to deeply regret it? And haven't we all gotten into a time-wasting argument simply because we accidentally noticed <a href="http://xkcd.com/386/">someone on the Internet was wrong</a>? We make a mental vow to never read comments again, but alas, we fail.
+</p>
 
-<h2>
-<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+<p>
+<strong>Mute</strong> is an AdBlock Plus filter for user comments. It transparently hides user-generated comments so you can browse the Internet with less stupidity clawing at your eyeballs.
+</p>
 
-<p>Mute is an AdBlock Plus add-on filter, so you must first have the <a href="http://adblockplus.org">AdBlock Plus</a> extension installed in your web browser.</p>
+<p>
+Mute removes comments from web pages where they aren't the primary focus, such as YouTube, blogs, and newspapers, but it leaves comments that are the focus, such as user reviews on Amazon and comments on Facebook, reddit, or forums. In short, the goal is to filter out the noise.
+</p>
 
-<p>Add the Mute filter to AdBlock using <a id="install-link" href="abp:subscribe?location=http://mute.bradconte.com/mute.txt&title=Mute Comments" onMouseUp="_gaq.push(['_trackEvent', 'Downloads', 'Link', 'mute.txt', 1, true]); return true;">this auto-add link</a>. Alternatively, use <a href="http://adblockplus.org/en/getting_started#add-subscription">these manual steps</a>, summarized here:</p>
+<h2 id="install">Install</h2>
+
+<p>
+Mute is an AdBlock Plus add-on filter, so you must first have the <a href="http://adblockplus.org">AdBlock Plus</a> addon installed in your web browser.
+</p>
+
+<p>
+Add the Mute filter to AdBlock using <a id="install-link" href="abp:subscribe?location=http://mute.bradconte.com/mute.txt&title=Mute Comments" onMouseUp="_gaq.push(['_trackEvent', 'Downloads', 'Link', 'mute.txt', 1, true]); return true;">this auto-add link</a>. Alternatively, use <a href="http://adblockplus.org/en/getting_started#add-subscription">these manual steps</a>, summarized here:
+</p>
 
 <ol>
-<li>Click AdBlock and select "Filter Preferences".</li>
-<li>Under the "Filter subscriptions" tab click "Add filter subscription" then "add different subscription".</li>
-<li>At the bottom, choose a subscription title like "Mute Comments" and enter the following into the filter list location: <code>http://mute.bradconte.com/mute.txt</code>
-</li>
-</ol><h3>
-<a name="what-if-i-want-to-view-blocked-comments" class="anchor" href="#what-if-i-want-to-view-blocked-comments"><span class="octicon octicon-link"></span></a>What if I want to view blocked comments?</h3>
+  <li>Click AdBlock and select "Filter Preferences".</li>
+  <li>Under the "Filter subscriptions" tab click "Add filter subscription" then "add different subscription".</li>
+  <li>At the bottom, choose a subscription title like "Mute Comments" and enter the following into the filter list location: <code>http://mute.bradconte.com/mute.txt</code></li>
+</ol>
 
-<p>Disabling AdBlock will disable this filter as well. You can disable AdBlock Plus through the normal means, such as on a specific page or an entire site.</p>
+<h3 id="view-blocked">What if I ever want to view blocked comments?</h3>
 
-<h2>
-<a name="contribute" class="anchor" href="#contribute"><span class="octicon octicon-link"></span></a>Contribute</h2>
+<p>
+Disabling AdBlock will disable this filter as well. You can disable AdBlock a specific page or an entire site.
+</p>
 
-<p>Requests are tracked through this project's <a href="https://github.com/B-Con/mute/issues">GitHub issue tracker</a>. Create an issue there if:</p>
+<p>
+You can also remove this filter at any time by going into AdBlock and selecting "Filter Preferences > Mute > Actions > Delete".
+</p>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>
+The filter isn't perfect. Short-comings of the filter are tracked through the project's <a href="https://github.com/B-Con/mute/issues">GitHub issue tracker</a>. Everyone is encouraged to add problems that they find with the filter. Create an issue there if:
+</p>
 
 <ul>
-<li>something is blocked when it shouldn't be</li>
-<li>something isn't blocked when it should be</li>
-</ul><p>When submitting an issue, include the URL (not the site name, not the domain, the full URL) and the browser you were using.</p>
+  <li>something isn't blocked when it should be</li>
+  <li>something is blocked when it shouldn't be</li>
+</ul>
 
-<p>Contributions are welcome. If you want to help, please see the <a href="https://github.com/B-Con/mute">GitHub repository</a>.</p>
+<p>
+and we'll investigate how to fix it. When submitting an issue, you only need to specify the URL with the comment problem (not just the site name or domain, the full URL) and preferably which browser you were using.
+</p>
 
-      </section>
-    </div>
+<p>
+Contributions to the filter set are welcome. See the <a href="https://github.com/B-Con/mute">GitHub repository</a>.
+</p>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Mute maintained by <a href="https://github.com/B-Con">B-Con</a></p>
-        <p>Design adapted from <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+  </div>
+  </section>
 
+  <!-- FOOTER -->
+  <footer>
+	<div class="inner">
+	  <p class="copyright">Mute is by <a href="http://bradconte.com">Brad Conte</a>.</p>
+	  <p>Site design adapted from <a href="http://pages.github.com">GitHub Pages</a>. Logo in part from <a href="http://openclipart.org/detail/169033/windows-mute-icon-by-mightyman">Open Clipart</a>.</p>
+	  <p>This project is not officially associated with or endorsed by AdBlock Plus.</a>
+	</div>
+  </footer>
+
+<!--
     <script type="text/javascript">
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-35982763-3']);
@@ -111,6 +138,6 @@
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
 	</script>
-
+-->
   </body>
 </html>
