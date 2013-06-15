@@ -107,6 +107,10 @@ schneier.com##div.commentbody
 imgur.com##div#under-image
 ! dilbert.com
 ##.SB_Comments
+! hanselman.com
+##.commentBoxStyle
+! fabiensanglard.net
+##.c5t_comment_list
 
 !
 ! NEWS
