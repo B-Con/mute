@@ -25,6 +25,7 @@ body {
 }
 
 header, footer {
+  color:              #fff;
   margin:             0;
   padding:            20px 0;
   background:         #339933; /*#7AC142;*/
@@ -36,7 +37,7 @@ h1 {
 }
 
 h2 {
-  font-size:          32px;
+  font-size:          30px;
 }
 
 h3 {
@@ -95,13 +96,11 @@ header .inner {
 
 #title {
   margin:             0;
-  color:              #fff;
   font-size:          46px;
   font-weight:        700;
 }
 
 #tagline {
-  color:              #fff;
   font-size:          24px;
   background:         none;
   padding:            15px 0;
