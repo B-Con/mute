@@ -38,6 +38,7 @@ h1 {
 
 h2 {
   font-size:          30px;
+  padding-top:        10px;
 }
 
 h3 {
@@ -49,7 +50,7 @@ p {
 }
 
 #main_content {
-  padding:            30px 0;
+  padding:            40px 0;
 }
 
 #main_content a {
@@ -76,6 +77,12 @@ em {
 
 strong {
   font-weight:        bold;
+}
+
+code {
+  font-size:          15px;
+  border:             1px solid #000000;
+  padding:            1px 3px;
 }
 
 
