@@ -80,7 +80,7 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block
 ! A common scheme that only uses generic identifiers
-##div.comments > div[id^=comment]:not(forumComment)
+##div.comments > div[id^=comment]:not(.forumComment)
 ! A common side-kick class for Wordpress sites not on Wordpress.com.
 ##div#comments div.comment-wrapper
 ! codinghorror.com
