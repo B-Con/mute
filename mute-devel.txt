@@ -70,7 +70,7 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ##.commentslist
 ###commentslist
 ##.comments-list
-###comments-list
+~flickr.com###comments-list
 ##.comments_list
 ###comments_list
 ! ...and accompanying comment headers.
