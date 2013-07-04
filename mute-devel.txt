@@ -44,6 +44,9 @@
 ~realtidbits.com##div#rtb-comments
 ~realtidbits.com##div.rtb-apps-comments-container
 
+! Thyme
+~thyme.comcastnets.net##div#thyme_comment
+
 ! Twitter
 ~twitter.com##[id=twitter_module]
 ~twitter.com##.twitter-tweet

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2013-07-03 @ 19:53:23 CDT
-! Checksum: 1a2cTI9GeQWOEiZ7N9Eiag
+! Last Modified: 2013-07-04 @ 01:35:48 CDT
+! Checksum: OflgEQ+1jsROXIp9GydtHg
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -23,6 +23,7 @@
 ~realtidbits.com##div#realtidbits-comments
 ~realtidbits.com##div#rtb-comments
 ~realtidbits.com##div.rtb-apps-comments-container
+~thyme.comcastnets.net##div#thyme_comment
 ~twitter.com##[id=twitter_module]
 ~twitter.com##.twitter-tweet
 abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com###comments

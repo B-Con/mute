@@ -43,6 +43,7 @@ These pages have comments that should be blocked. This list should include pages
 * http://shine.yahoo.com/parenting/kate-middleton-due-date-mystery-210100247.html
 * http://now.msn.com/barry-rountree-incoming-winston-salem-nc-police-chief-shoots-at-a-dog-hits-owner-and-is-placed-on-administrative-duty
 * http://www.tmz.com/2013/07/03/alex-rodriguez-whistleblower-steroids-records-mlb-baseball/
+* http://www.eonline.com/news/436441/david-and-victoria-beckham-run-on-sports-day-at-son-s-school-see-the-pics
 
 ###Negative Tests
 These pages have comments that should **not** be blocked.
