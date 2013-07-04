@@ -91,6 +91,8 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ##.userComment
 ! retailcustomerexperience.com
 ###userComments
+! msn.com
+##div#usercomments
 ! anandtech.com
 ##.blog_comments
 ! lwn.net
