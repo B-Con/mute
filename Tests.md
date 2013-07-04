@@ -40,6 +40,7 @@ These pages have comments that should be blocked. This list should include pages
 * http://www.france24.com/en/20130528-china-recognises-bubbly-champagne-france-wine
 * http://www.news24.com/Multimedia/Africa/African-Union-celebrates-50-years-20130527
 * http://www.scientificamerican.com/video.cfm?id=flying-car-for-the-masses-set-for-t2013-05-23
+* http://shine.yahoo.com/parenting/kate-middleton-due-date-mystery-210100247.html
 
 ###Negative Tests
 These pages have comments that should **not** be blocked.

@@ -201,6 +201,8 @@ imgur.com##div#under-image
 ##div.b-comments_page
 ! slate.com
 ##div#article_comment_box
+! yahoo.com
+##div#yom-comments
 
 !
 ! MISC
