@@ -111,6 +111,9 @@ imgur.com##div#under-image
 ##.commentBoxStyle
 ! fabiensanglard.net
 ##.c5t_comment_list
+! typepad
+##h3.comments-header
+##div#tpc_thread
 
 !
 ! NEWS
