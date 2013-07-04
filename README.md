@@ -4,7 +4,7 @@ Who hasn't innocently started to read comments on a newspaper article, blog post
 
 **Mute** is an AdBlock Plus filter for user comments. It transparently hides user-generated comments so you can browse the Internet with less stupidity clawing at your eyeballs.
 
-Mute removes comments from web pages where the comments aren't the primary focus, such as YouTube, blogs, and newspapers, but it leaves comments that are the focus, such as user reviews on Amazon and comments on Facebook, reddit, or forums. User generated content that is the central focus should remain untouched.
+Mute removes comments from web pages where the comments aren't the primary focus, such as YouTube, blogs, and newspapers, but it leaves comments that are the focus, such as user reviews on Amazon and comments on Facebook, reddit, or forums. User generated content that is the central focus should remain untouched. In short, the goal is to filter out the noise.
 
 Installation
 ---
@@ -16,7 +16,8 @@ Add the Mute filter to AdBlock [using these steps](http://adblockplus.org/en/get
 2. Under the "Filter subscriptions" tab click "Add filter subscription" then "add different subscription".
 3. At the bottom, choose a subscription title like "Mute Comments" and enter the following into the filter list location: `http://mute.bradconte.com/mute.txt`
 
-### What if I want to view blocked comments?
+What if I want to view blocked comments?
+---
 Disabling AdBlock will disable this filter as well. You can disable AdBlock Plus through the normal means, such as on a specific page or an entire site.
 
 Contribute
@@ -32,4 +33,4 @@ Pull requests are welcome. If you want to help, please see the document `Guideli
 
 License
 ---
-The contents of this project are under the MIT License; a very non-restrictive license.
+The contents of this project are under the MIT License; a very non-restrictive license. See LICENSE.md.
