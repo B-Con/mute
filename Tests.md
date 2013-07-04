@@ -42,6 +42,7 @@ These pages have comments that should be blocked. This list should include pages
 * http://www.scientificamerican.com/video.cfm?id=flying-car-for-the-masses-set-for-t2013-05-23
 * http://shine.yahoo.com/parenting/kate-middleton-due-date-mystery-210100247.html
 * http://now.msn.com/barry-rountree-incoming-winston-salem-nc-police-chief-shoots-at-a-dog-hits-owner-and-is-placed-on-administrative-duty
+* http://www.tmz.com/2013/07/03/alex-rodriguez-whistleblower-steroids-records-mlb-baseball/
 
 ###Negative Tests
 These pages have comments that should **not** be blocked.

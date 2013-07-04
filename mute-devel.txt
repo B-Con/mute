@@ -208,6 +208,8 @@ imgur.com##div#under-image
 ##div#article_comment_box
 ! yahoo.com
 ##div#yom-comments
+! tmz.com
+##div#comments-fullwrapper
 
 !
 ! MISC
