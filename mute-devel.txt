@@ -64,18 +64,18 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ! blogspot.com
 ##iframe[src*=google\.com\/_\/widget\/render\/comments]
 ! Very universally popular, includes Wordpress
-##.commentlist
-###commentlist
-##.comment-list
-###comment-list
-##.comment_list
-###comment_list
-##.commentslist
-###commentslist
-##.comments-list
-~flickr.com###comments-list
-##.comments_list
-###comments_list
+##[class~=commentlist]
+##[id~=commentlist]
+##[class~=comment-list]
+##[id~=comment-list]
+##[class~=comment_list]
+##[id~=comment_list]
+##[class~=commentslist]
+##[id~=commentslist]
+##[class~=comments-list]
+~flickr.com##[id~=comments-list]
+##[class~=comments_list]
+##[id~=comments_list]
 ! ...and accompanying comment headers.
 ##div#comments-title
 ~stackexchange.com,~stackoverflow.com##a.comments-link
