@@ -56,6 +56,7 @@ These pages have comments that should **not** be blocked.
 * http://www.amazon.com/Ray-Ban-RB2132-New-Wayfarer-Sunglasses/dp/B003CIP4TE/
 * https://aur.archlinux.org/packages/yaourt/
 * http://thesandtrap.com/products/orange-whip-training-aid/reviews/4590
+* https://bugs.kde.org/show_bug.cgi?id=135505 (uses "id=comments")
 
 Performing Tests
 ---
