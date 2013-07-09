@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute (dev branch)
-! Last Modified: 2013-07-08 @ 21:27:45 CDT
-! Checksum: V9K27eLe9RNyvPM3kG6O4w
+! Last Modified: 2013-07-08 @ 23:20:56 CDT
+! Checksum: 19lEx1eoopaSi85MakNgUg
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -25,8 +25,6 @@
 ~realtidbits.com##div#rtb-comments
 ~realtidbits.com##div.rtb-apps-comments-container
 ~thyme.comcastnets.net##div#thyme_comment
-~twitter.com##[id=twitter_module]
-~twitter.com##.twitter-tweet
 abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com###comments
 propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
 cracked.com###Comments

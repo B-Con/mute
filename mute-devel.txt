@@ -51,8 +51,8 @@
 ~thyme.comcastnets.net##div#thyme_comment
 
 ! Twitter
-~twitter.com##[id=twitter_module]
-~twitter.com##.twitter-tweet
+!~twitter.com##[id=twitter_module]
+!~twitter.com##.twitter-tweet
 !TODO: Investigate this: ##div[id^=twitter-widget]
 
 !

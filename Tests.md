@@ -17,7 +17,6 @@ These pages have comments that should be blocked. This list should include pages
 * http://www.socialmediaexaminer.com/8-creative-ways-to-use-embeddable-tweets/
 * http://www.anandtech.com/show/6964/gigabyte-z77hd4-review
 * http://scientopia.org/blogs/goodmath/2013/05/05/speed-crankery/
-* http://www.flickr.com/photos/14279081@N08/8442407428/
 * http://imgur.com/gallery/Cxagv
 * http://techcrunch.com/2013/05/27/apples-problem-isnt-skeuomorphism-its-its-services/
 * http://valleywag.gawker.com/techcrunch-says-i-cant-come-to-their-party-anymore-484392688
@@ -58,7 +57,8 @@ These pages have comments that should **not** be blocked.
 * http://www.amazon.com/Ray-Ban-RB2132-New-Wayfarer-Sunglasses/dp/B003CIP4TE/
 * https://aur.archlinux.org/packages/yaourt/
 * http://thesandtrap.com/products/orange-whip-training-aid/reviews/4590
-* https://bugs.kde.org/show_bug.cgi?id=135505 (uses "id=comments")
+* https://bugs.kde.org/show_bug.cgi?id=135505 (uses "id=comments").
+* http://kotaku.com/hideo-kojima-reviews-pacific-rim-in-eight-tweets-680304164
 
 Performing Tests
 ---
