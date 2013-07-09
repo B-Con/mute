@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: Mute
+! Title: Mute (dev branch)
 ! Last Modified: X
 ! Checksum: X
 ! Expires: 5 days

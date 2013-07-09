@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Title: Mute
-! Last Modified: 2013-07-08 @ 21:25:47 CDT
-! Checksum: wGyGvp7+nWH1EUlYf0lonQ
+! Title: Mute (dev branch)
+! Last Modified: 2013-07-08 @ 21:27:45 CDT
+! Checksum: V9K27eLe9RNyvPM3kG6O4w
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
