@@ -44,6 +44,8 @@ These pages have comments that should be blocked. This list should include pages
 * http://now.msn.com/barry-rountree-incoming-winston-salem-nc-police-chief-shoots-at-a-dog-hits-owner-and-is-placed-on-administrative-duty
 * http://www.tmz.com/2013/07/03/alex-rodriguez-whistleblower-steroids-records-mlb-baseball/
 * http://www.eonline.com/news/436441/david-and-victoria-beckham-run-on-sports-day-at-son-s-school-see-the-pics
+* http://www.fool.com/investing/general/2013/07/04/apples-iwatch-conundrum.aspx
+* http://the-toast.net/2013/07/05/a-day-in-the-life-of-dr-oz/
 
 ###Negative Tests
 These pages have comments that should **not** be blocked.
@@ -57,6 +59,8 @@ These pages have comments that should **not** be blocked.
 * https://aur.archlinux.org/packages/yaourt/
 * http://thesandtrap.com/products/orange-whip-training-aid/reviews/4590
 * http://www.flickr.com/photos/14279081@N08/8442407428/
+* https://bugs.kde.org/show_bug.cgi?id=135505 (uses "id=comments").
+* http://kotaku.com/hideo-kojima-reviews-pacific-rim-in-eight-tweets-680304164
 
 Performing Tests
 ---

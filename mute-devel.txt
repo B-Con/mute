@@ -14,7 +14,7 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !
-! 3rd party
+! 3rd party / plugins
 !
 
 ! Disqus
@@ -32,6 +32,9 @@
 ~facebook.com##div.fb_iframe_widget
 ~facebook.com##div.fb-comments
 
+! Intense debate (http://support.intensedebate.com/css-documentation/)
+~intensedebate.com##div#idc-container-parent
+
 ! Jive
 ~jive.com##div#jive-comments
 
@@ -48,37 +51,44 @@
 ~thyme.comcastnets.net##div#thyme_comment
 
 ! Twitter
-~twitter.com##[id=twitter_module]
-~twitter.com##.twitter-tweet
+!~twitter.com##[id=twitter_module]
+!~twitter.com##.twitter-tweet
 !TODO: Investigate this: ##div[id^=twitter-widget]
+
+!
+! Popular patterns
+!
+
+! A very popular ID, but only blacklist it because it's very generic and has lots of false positives.
+abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com###comments
+propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
+cracked.com###Comments
+
+! Very universally popular, includes Wordpress
+##[class~=commentlist]
+##[id~=commentlist]
+##[class~=comment-list]
+##[id~=comment-list]
+##[class~=comment_list]
+##[id~=comment_list]
+##[class~=commentslist]
+##[id~=commentslist]
+##[class~=comments-list]
+~flickr.com##[id~=comments-list]
+##[class~=comments_list]
+##[id~=comments_list]
+! ...and accompanying comment headers.
+##div#comments-title
+~stackexchange.com,~stackoverflow.com##a.comments-link
 
 !
 ! BLOGS
 !
 
-! A popular ID, but only blacklist it because it's very generic.
-abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com###comments
-propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
 ! youtube.com
 ##div#watch-discussion
 ! blogspot.com
 ##iframe[src*=google\.com\/_\/widget\/render\/comments]
-! Very universally popular, includes Wordpress
-##.commentlist
-###commentlist
-##.comment-list
-###comment-list
-##.comment_list
-###comment_list
-##.commentslist
-###commentslist
-##.comments-list
-~flickr.com###comments-list
-##.comments_list
-###comments_list
-! ...and accompanying comment headers.
-##div#comments-title
-~stackexchange.com,~stackoverflow.com##a.comments-link
 ! Blogger-based blogs, a couple hacks
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block
@@ -94,8 +104,6 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ##.userComment
 ! retailcustomerexperience.com
 ###userComments
-! msn.com
-##div#usercomments
 ! anandtech.com
 ##.blog_comments
 ! lwn.net
@@ -213,6 +221,11 @@ imgur.com##div#under-image
 ##div#yom-comments
 ! tmz.com
 ##div#comments-fullwrapper
+! foxsportswest.com
+##div#fsn_v3_comments
+! msn.com, "usercomments" is on some MSN pages, included to round out rules for similarly named IDs
+##div#scplatformComments
+##div#usercomments
 
 !
 ! MISC
