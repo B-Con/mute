@@ -94,7 +94,8 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ##.userComment
 ! retailcustomerexperience.com
 ###userComments
-! msn.com
+! msn.com, "usercomments" is on some MSN pages, included to round out rules for similarly named IDs
+##div#scplatformComments
 ##div#usercomments
 ! anandtech.com
 ##.blog_comments
