@@ -56,16 +56,14 @@
 !TODO: Investigate this: ##div[id^=twitter-widget]
 
 !
-! BLOGS
+! Popular patterns
 !
 
 ! A very popular ID, but only blacklist it because it's very generic and has lots of false positives.
 abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com###comments
 propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
-! youtube.com
-##div#watch-discussion
-! blogspot.com
-##iframe[src*=google\.com\/_\/widget\/render\/comments]
+cracked.com###Comments
+
 ! Very universally popular, includes Wordpress
 ##[class~=commentlist]
 ##[id~=commentlist]
@@ -82,6 +80,15 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ! ...and accompanying comment headers.
 ##div#comments-title
 ~stackexchange.com,~stackoverflow.com##a.comments-link
+
+!
+! BLOGS
+!
+
+! youtube.com
+##div#watch-discussion
+! blogspot.com
+##iframe[src*=google\.com\/_\/widget\/render\/comments]
 ! Blogger-based blogs, a couple hacks
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block

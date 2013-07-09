@@ -45,6 +45,7 @@ These pages have comments that should be blocked. This list should include pages
 * http://www.tmz.com/2013/07/03/alex-rodriguez-whistleblower-steroids-records-mlb-baseball/
 * http://www.eonline.com/news/436441/david-and-victoria-beckham-run-on-sports-day-at-son-s-school-see-the-pics
 * http://www.fool.com/investing/general/2013/07/04/apples-iwatch-conundrum.aspx
+* http://the-toast.net/2013/07/05/a-day-in-the-life-of-dr-oz/
 
 ###Negative Tests
 These pages have comments that should **not** be blocked.

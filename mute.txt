@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2013-07-08 @ 20:26:15 CDT
-! Checksum: QU00oQBI0Nf8DYDedWseoQ
+! Last Modified: 2013-07-08 @ 21:25:47 CDT
+! Checksum: wGyGvp7+nWH1EUlYf0lonQ
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -17,6 +17,7 @@
 ~facebook.com##iframe[src*=facebook\.com\/plugins\/comments]
 ~facebook.com##div.fb_iframe_widget
 ~facebook.com##div.fb-comments
+~intensedebate.com##div#idc-container-parent
 ~jive.com##div#jive-comments
 ~livefyre.com##div.fyre-widget
 ~livefyre.com##div#livefyre
@@ -28,22 +29,23 @@
 ~twitter.com##.twitter-tweet
 abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com###comments
 propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
-##div#watch-discussion
-##iframe[src*=google\.com\/_\/widget\/render\/comments]
-##.commentlist
-###commentlist
-##.comment-list
-###comment-list
-##.comment_list
-###comment_list
-##.commentslist
-###commentslist
-##.comments-list
-~flickr.com###comments-list
-##.comments_list
-###comments_list
+cracked.com###Comments
+##[class~=commentlist]
+##[id~=commentlist]
+##[class~=comment-list]
+##[id~=comment-list]
+##[class~=comment_list]
+##[id~=comment_list]
+##[class~=commentslist]
+##[id~=commentslist]
+##[class~=comments-list]
+~flickr.com##[id~=comments-list]
+##[class~=comments_list]
+##[id~=comments_list]
 ##div#comments-title
 ~stackexchange.com,~stackoverflow.com##a.comments-link
+##div#watch-discussion
+##iframe[src*=google\.com\/_\/widget\/render\/comments]
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block
 ##div.comments > div[id^=comment]:not(.forumComment)
@@ -52,8 +54,6 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 ##div.serendipity_comments
 ##.userComment
 ###userComments
-##div#scplatformComments
-##div#usercomments
 ##.blog_comments
 ##.CommentBox
 ##div#commentblock
@@ -112,4 +112,7 @@ imgur.com##div#under-image
 ##div#article_comment_box
 ##div#yom-comments
 ##div#comments-fullwrapper
+##div#fsn_v3_comments
+##div#scplatformComments
+##div#usercomments
 ##.comment-thread
