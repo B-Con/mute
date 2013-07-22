@@ -226,6 +226,8 @@ imgur.com##div#under-image
 ! msn.com, "usercomments" is on some MSN pages, included to round out rules for similarly named IDs
 ##div#scplatformComments
 ##div#usercomments
+! nymag.com
+##div#echo-comments
 
 !
 ! MISC

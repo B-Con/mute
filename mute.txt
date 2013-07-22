@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute (dev branch)
-! Last Modified: 2013-07-08 @ 23:20:56 CDT
-! Checksum: 19lEx1eoopaSi85MakNgUg
+! Last Modified: 2013-07-22 @ 01:33:24 CDT
+! Checksum: Ti+DPaKk4Zn8dIcBmUOa2g
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -113,4 +113,5 @@ imgur.com##div#under-image
 ##div#fsn_v3_comments
 ##div#scplatformComments
 ##div#usercomments
+##div#echo-comments
 ##.comment-thread
