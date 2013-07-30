@@ -22,6 +22,8 @@
 ~disqus.com##div#disqus_thread
 ~disqus.com##div.dsq-widget
 
+! Discourse
+
 ! Kinja (gawker.com, gizmodo.com, io9.com, others)
 ~kinja.com##div.replies-wrapper
 ~kinja.com##div.js_replies
@@ -94,6 +96,7 @@ cracked.com###Comments
 ##div#comments > dl#comments-block
 ! A common scheme that only uses generic identifiers
 ##div.comments > div[id^=comment]:not(.forumComment)
+##div#comments> div.comment
 ! A common side-kick class for Wordpress sites not on Wordpress.com.
 ##div#comments div.comment-wrapper
 ! codinghorror.com
@@ -204,7 +207,7 @@ imgur.com##div#under-image
 ! mirror.co.uk
 ##div.pluck-wrap
 ! newrepublic.com
-##div.conversation
+##div#discourse
 ! newser.com
 ##div#CommentsShort
 ! reuters.com
@@ -226,6 +229,8 @@ imgur.com##div#under-image
 ! msn.com, "usercomments" is on some MSN pages, included to round out rules for similarly named IDs
 ##div#scplatformComments
 ##div#usercomments
+! nymag.com
+##div#echo-comments
 
 !
 ! MISC

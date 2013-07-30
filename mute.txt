@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2013-07-09 @ 00:32:03 CDT
-! Checksum: W3XJaNCE3j5tj5Lrd5/mVA
+! Last Modified: 2013-07-30 @ 01:25:42 CDT
+! Checksum: AKALY0THXwjxFhgu6ZJL1A
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -47,6 +47,7 @@ cracked.com###Comments
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block
 ##div.comments > div[id^=comment]:not(.forumComment)
+##div#comments> div.comment
 ##div#comments div.comment-wrapper
 ##div.comments-body
 ##div.serendipity_comments
@@ -101,7 +102,7 @@ imgur.com##div#under-image
 ##div#comments-only
 ##div#commentsTab
 ##div.pluck-wrap
-##div.conversation
+##div#discourse
 ##div#CommentsShort
 ##div#articleComments
 ##div.article_comments
@@ -113,4 +114,5 @@ imgur.com##div#under-image
 ##div#fsn_v3_comments
 ##div#scplatformComments
 ##div#usercomments
+##div#echo-comments
 ##.comment-thread
