@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute (dev branch)
-! Last Modified: 2013-07-22 @ 01:33:24 CDT
-! Checksum: Ti+DPaKk4Zn8dIcBmUOa2g
+! Last Modified: 2013-07-30 @ 01:15:20 CDT
+! Checksum: C725LrukkTXJ2Ok4xbT+iA
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -47,6 +47,7 @@ cracked.com###Comments
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block
 ##div.comments > div[id^=comment]:not(.forumComment)
+##div#comments> div.comment
 ##div#comments div.comment-wrapper
 ##div.comments-body
 ##div.serendipity_comments
@@ -101,7 +102,7 @@ imgur.com##div#under-image
 ##div#comments-only
 ##div#commentsTab
 ##div.pluck-wrap
-##div.conversation
+##div#discourse
 ##div#CommentsShort
 ##div#articleComments
 ##div.article_comments
