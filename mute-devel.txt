@@ -169,6 +169,8 @@ imgur.com##div#under-image
 ##div#discussionThreadBox
 ! blogs.wsj.com
 ##div.postcomments
+! cbsnews.com
+##div#postComments
 ! huffingtonpost.co.uk
 ##div[id*=comments_block]
 ! thesun.co.uk
