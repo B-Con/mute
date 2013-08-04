@@ -167,8 +167,8 @@ imgur.com##div#under-image
 ##div.comment_main
 ! online.wsj.com
 ##div#discussionThreadBox
-! blogs.wsj.com
-##div.postcomments
+! blogs.wsj.com, usnews.nbcnews.com
+##div[class*=postcomments]
 ! cbsnews.com
 ##div#postComments
 ! huffingtonpost.co.uk
