@@ -211,7 +211,7 @@ imgur.com##div#under-image
 ! newser.com
 ##div#CommentsShort
 ! reuters.com
-##div#articleComments
+##div.articleComments
 ! rferl.org
 ##div.article_comments
 ! thestar.com
