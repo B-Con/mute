@@ -46,6 +46,8 @@ These pages have comments that should be blocked. This list should include pages
 * http://www.eonline.com/news/436441/david-and-victoria-beckham-run-on-sports-day-at-son-s-school-see-the-pics
 * http://www.fool.com/investing/general/2013/07/04/apples-iwatch-conundrum.aspx
 * http://the-toast.net/2013/07/05/a-day-in-the-life-of-dr-oz/
+* http://www.cbsnews.com/8301-207_162-57595288/royal-baby-name-revealed-george-alexander-louis/
+* usnews.nbcnews.com/_news/2013/07/22/19618495-zimmerman-emerges-to-help-family-escape-overturned-car-in-sanford-fla
 
 ###Negative Tests
 These pages have comments that should **not** be blocked.
