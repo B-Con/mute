@@ -48,6 +48,7 @@ These pages have comments that should be blocked. This list should include pages
 * http://the-toast.net/2013/07/05/a-day-in-the-life-of-dr-oz/
 * http://www.cbsnews.com/8301-207_162-57595288/royal-baby-name-revealed-george-alexander-louis/
 * usnews.nbcnews.com/_news/2013/07/22/19618495-zimmerman-emerges-to-help-family-escape-overturned-car-in-sanford-fla
+* http://bleacherreport.com/articles/1715833-aaron-hernandezs-honorary-all-american-brick-removed-by-florida-gators
 
 ###Negative Tests
 These pages have comments that should **not** be blocked.

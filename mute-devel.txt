@@ -233,6 +233,8 @@ imgur.com##div#under-image
 ##div#usercomments
 ! nymag.com
 ##div#echo-comments
+! bleechreport.com
+##div.comments-new-article
 
 !
 ! MISC
