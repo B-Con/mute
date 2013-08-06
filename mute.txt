@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2013-07-30 @ 01:25:42 CDT
-! Checksum: AKALY0THXwjxFhgu6ZJL1A
+! Last Modified: 2013-08-06 @ 00:35:31 CDT
+! Checksum: UoXMBc7B+zg27jop+jBwEA
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -25,7 +25,7 @@
 ~realtidbits.com##div#rtb-comments
 ~realtidbits.com##div.rtb-apps-comments-container
 ~thyme.comcastnets.net##div#thyme_comment
-abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com###comments
+abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com,mtv.com###comments
 propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
 cracked.com###Comments
 ##[class~=commentlist]
@@ -82,7 +82,8 @@ imgur.com##div#under-image
 ##div#iupload_comments
 ##div.comment_main
 ##div#discussionThreadBox
-##div.postcomments
+##div[class*=postcomments]
+##div#postComments
 ##div[id*=comments_block]
 ##div.comment-rig
 ##div#inferno-comments
@@ -104,7 +105,7 @@ imgur.com##div#under-image
 ##div.pluck-wrap
 ##div#discourse
 ##div#CommentsShort
-##div#articleComments
+##div.articleComments
 ##div.article_comments
 ##div#article-comments
 ##div.b-comments_page
@@ -115,4 +116,6 @@ imgur.com##div#under-image
 ##div#scplatformComments
 ##div#usercomments
 ##div#echo-comments
+##div.comments-new-article
+##div#aol-comments
 ##.comment-thread
