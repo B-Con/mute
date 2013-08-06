@@ -50,7 +50,7 @@ These pages have comments that should be blocked. This list should include pages
 * usnews.nbcnews.com/_news/2013/07/22/19618495-zimmerman-emerges-to-help-family-escape-overturned-car-in-sanford-fla
 * http://bleacherreport.com/articles/1715833-aaron-hernandezs-honorary-all-american-brick-removed-by-florida-gators
 * http://www.dailyfinance.com/2013/07/28/wall-street-week-ahead-Caesars-NVIDIA-LeapFrog-Viacom/
-
+* http://tv.msnbc.com/2013/07/12/ktvu-reports-fake-racist-names-of-asiana-airlines-214-pilots/
 
 ###Negative Tests
 These pages have comments that should **not** be blocked.
