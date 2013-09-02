@@ -57,6 +57,10 @@
 !~twitter.com##.twitter-tweet
 !TODO: Investigate this: ##div[id^=twitter-widget]
 
+! Vanilla Forums
+~vanillaforums.com##iframe[id^=vanilla]
+~vanillaforums.com##body#vanilla_discussion_embed
+
 !
 ! Popular patterns
 !
