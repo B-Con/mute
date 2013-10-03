@@ -134,6 +134,8 @@ imgur.com##div#under-image
 ! typepad
 ##h3.comments-header
 ##div#tpc_thread
+! phonearena.com
+##div#Discussions_Container
 
 !
 ! NEWS
