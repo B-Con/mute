@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2013-10-03 @ 01:04:58 CDT
-! Checksum: ouXrWwGIKKHg45+nGC8bDw
+! Last Modified: 2014-01-30 @ 23:01:44 CST
+! Checksum: M/9zS7BfP8+SwxvUGi0iNw
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -30,20 +30,29 @@
 abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com,mtv.com###comments
 propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
 cracked.com###Comments
+msnbc.com##.comments
 ##[class~=commentlist]
+##[class~=commentList]
 ##[id~=commentlist]
+##[id~=commentList]
 ##[class~=comment-list]
 ##[id~=comment-list]
 ##[class~=comment_list]
 ##[id~=comment_list]
 ##[class~=commentslist]
+##[class~=commentsList]
 ##[id~=commentslist]
+##[id~=commentsList]
 ##[class~=comments-list]
 ~flickr.com##[id~=comments-list]
 ##[class~=comments_list]
 ##[id~=comments_list]
 ##div#comments-title
 ~stackexchange.com,~stackoverflow.com##a.comments-link
+##ol.comments
+##ol#comments
+##ul.comments
+##ul#comments
 ##div#watch-discussion
 ##iframe[src*=google\.com\/_\/widget\/render\/comments]
 ##div.post-outer > div#comments, div.post-outer > div.comments
@@ -122,4 +131,8 @@ imgur.com##div#under-image
 ##div#echo-comments
 ##div.comments-new-article
 ##div#aol-comments
+##div.hdn-comments
+###article-comments
+##div#hl-comments
+##div.discussionContainer
 ##.comment-thread
