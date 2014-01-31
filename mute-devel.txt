@@ -140,6 +140,8 @@ imgur.com##div#under-image
 ##div#tpc_thread
 ! phonearena.com
 ##div#Discussions_Container
+! nbcnews.com
+##div.discussionContainer
 
 !
 ! NEWS
