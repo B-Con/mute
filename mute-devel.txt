@@ -253,6 +253,8 @@ imgur.com##div#under-image
 ##ol.comments
 ! sfgate.com
 ##div.hdn-comments
+! techradar.com
+###article-comments
 
 !
 ! MISC
