@@ -251,6 +251,8 @@ imgur.com##div#under-image
 ##div#aol-comments
 ! techdirt.com
 ##ol.comments
+! sfgate.com
+##div.hdn-comments
 
 !
 ! MISC
