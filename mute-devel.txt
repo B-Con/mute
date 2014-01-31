@@ -91,6 +91,11 @@ cracked.com###Comments
 ##div#comments-title
 ~stackexchange.com,~stackoverflow.com##a.comments-link
 
+##ol.comments
+##ol#comments
+##ul.comments
+##ul#comments
+
 !
 ! BLOGS
 !
@@ -140,8 +145,6 @@ imgur.com##div#under-image
 ##div#tpc_thread
 ! phonearena.com
 ##div#Discussions_Container
-! nbcnews.com
-##div.discussionContainer
 
 !
 ! NEWS
@@ -251,14 +254,15 @@ imgur.com##div#under-image
 ##div.comments-new-article
 ! dailyfinance.com
 ##div#aol-comments
-! techdirt.com
-##ol.comments
 ! sfgate.com
 ##div.hdn-comments
 ! techradar.com
 ###article-comments
 ! hollywoodlife.com
 ##div#hl-comments
+! nbcnews.com
+##div.discussionContainer
+
 
 !
 ! MISC
