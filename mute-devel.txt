@@ -72,13 +72,17 @@ cracked.com###Comments
 
 ! Very universally popular, includes Wordpress
 ##[class~=commentlist]
+##[class~=commentList]
 ##[id~=commentlist]
+##[id~=commentList]
 ##[class~=comment-list]
 ##[id~=comment-list]
 ##[class~=comment_list]
 ##[id~=comment_list]
 ##[class~=commentslist]
+##[class~=commentsList]
 ##[id~=commentslist]
+##[id~=commentsList]
 ##[class~=comments-list]
 ~flickr.com##[id~=comments-list]
 ##[class~=comments_list]
