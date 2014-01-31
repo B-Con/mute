@@ -19,6 +19,7 @@ These pages have comments that should be blocked. This list should include pages
 * http://scientopia.org/blogs/goodmath/2013/05/05/speed-crankery/
 * http://imgur.com/gallery/Cxagv
 * http://techcrunch.com/2013/05/27/apples-problem-isnt-skeuomorphism-its-its-services/
+* http://techdirt.com/articles/20131106/18325525157
 * http://boingboing.net/2013/06/27/cross-sectional-photos-of-ammu.html
 * http://valleywag.gawker.com/techcrunch-says-i-cant-come-to-their-party-anymore-484392688
 * http://gizmodo.com/the-ipad-cleverly-detects-this-connected-picture-books-510005976
