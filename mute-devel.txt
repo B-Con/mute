@@ -255,6 +255,8 @@ imgur.com##div#under-image
 ##div.hdn-comments
 ! techradar.com
 ###article-comments
+! hollywoodlife.com
+##div#hl-comments
 
 !
 ! MISC
