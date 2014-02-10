@@ -78,7 +78,7 @@ msnbc.com##.comments
 ##[id~=commentList]
 ##[class~=comment-list]
 ##[id~=comment-list]
-##[class~=comment_list]
+~quora.com##[class~=comment_list]
 ##[id~=comment_list]
 ##[class~=commentslist]
 ##[class~=commentsList]
