@@ -5,7 +5,7 @@ if [ $# -ne 1 -o ! -d "$1" ]; then
 	exit 1
 fi
 
-FILE_IN="$1/mute-devel.txt"
+FILE_IN="$1/mute-template.txt"
 FILE_OUT="$1/mute.txt"
 
 # Remove unnecessary comments and lines with just whitespace.
