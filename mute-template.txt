@@ -110,7 +110,7 @@ msnbc.com##.comments
 ##div#comments > dl#comments-block
 ! A common scheme that only uses generic identifiers
 ##div.comments > div[id^=comment]:not(.forumComment)
-archlinux.org##div#comments> div.comment
+~archlinux.org##div#comments> div.comment
 ! A common side-kick class for Wordpress sites not on Wordpress.com.
 ##div#comments div.comment-wrapper
 ! codinghorror.com
