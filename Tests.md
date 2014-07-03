@@ -67,6 +67,7 @@ These pages have comments that should **not** be blocked.
 * http://www.flickr.com/photos/14279081@N08/8442407428/
 * https://bugs.kde.org/show_bug.cgi?id=135505 (uses "id=comments").
 * http://kotaku.com/hideo-kojima-reviews-pacific-rim-in-eight-tweets-680304164
+* http://warhammer40k.wikia.com/wiki/Thread:44932
 
 Performing Tests
 ---
