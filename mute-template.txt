@@ -94,7 +94,7 @@ msnbc.com##.comments
 
 ##ol.comments
 ##ol#comments
-##ul.comments
+~wikia.com##ul.comments
 ##ul#comments
 
 !
