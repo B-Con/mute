@@ -61,6 +61,9 @@
 ~vanillaforums.com##iframe[id^=vanilla]
 ~vanillaforums.com##body#vanilla_discussion_embed
 
+! Via Foura
+~viafoura.com##.viafoura
+
 !
 ! Popular patterns
 !
@@ -263,11 +266,13 @@ imgur.com##div#under-image
 ##div#hl-comments
 ! nbcnews.com
 ##div.discussionContainer
-
+! lemonde.fr
+###liste_reactions
 
 !
 ! MISC
 !
 
 ! gocomics.com
-##.comment-thread
+~nexusmods.com##.comment-thread
+
