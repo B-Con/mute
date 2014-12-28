@@ -70,7 +70,7 @@ msnbc.com##.comments
 ##div#commentblock
 schneier.com##div.commentbody
 ##section#comments,section.coments
-imgur.com###captions
+imgur.com##*#captions
 imgur.com##.relative.action-bar
 imgur.com##.small.textbox.comments-info
 imgur.com##.social
