@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2014-12-28 @ 12:40:12 EST 
+! Last Modified: 2014-12-28 @ 12:46:26 EST  
 ! Checksum: u2DIuLrTmBlMu5K196PHKg
 ! Expires: 5 days
 !
@@ -70,6 +70,7 @@ msnbc.com##.comments
 ##div#commentblock
 schneier.com##div.commentbody
 ##section#comments,section.coments
+imgur.com##*#captions
 imgur.com##*#caption_textarea
 imgur.com##.relative.action-bar
 imgur.com##.small.textbox.comments-info
