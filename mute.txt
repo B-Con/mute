@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2014-12-28 @ 12:46:26 EST  
+! Last Modified: 2014-12-29 @ 18:47:47 EST
 ! Checksum: u2DIuLrTmBlMu5K196PHKg
 ! Expires: 5 days
 !
@@ -143,4 +143,4 @@ imgur.com##*.comment
 ##div.discussionContainer
 ###liste_reactions
 ~nexusmods.com##.comment-thread
-##.pb-comment-wrapper
+##div.pb-comment-wrapper
