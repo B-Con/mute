@@ -143,3 +143,4 @@ imgur.com##*.comment
 ##div.discussionContainer
 ###liste_reactions
 ~nexusmods.com##.comment-thread
+##.pb-comment-wrapper
