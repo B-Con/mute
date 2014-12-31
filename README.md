@@ -8,9 +8,9 @@ Mute removes comments from web pages where the comments aren't the primary focus
 
 Installation
 ---
-Mute is an AdBlock Plus add-on filter, so you must first have the [AdBlock Plus](http://adblockplus.org) extention installed in your web browser.
+Mute is an AdBlock Plus add-on filter, so you must first have the [AdBlock Plus](http://adblockplus.org) extension installed in your web browser.
 
-Add the Mute filter to AdBlock [using these steps](http://adblockplus.org/en/getting_started#add-subscription), summerized here:
+Add the Mute filter to AdBlock [using these steps](http://adblockplus.org/en/getting_started#add-subscription), summarized here:
 
 1. Click AdBlock and select "Filter Preferences".
 2. Under the "Filter subscriptions" tab click "Add filter subscription" then "add different subscription".
