@@ -146,3 +146,4 @@ imgur.com##*.comment
 ##div.pb-comment-wrapper
 ##.jump-to-comments
 facebook.com##._5mym
+##.commentCount
