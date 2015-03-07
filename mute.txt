@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2014-12-31 @ 13:42:40 EST
+! Last Modified: 2015-03-07 @ 09:51:46 CST
 ! Checksum: u2DIuLrTmBlMu5K196PHKg
 ! Expires: 5 days
 !
@@ -44,8 +44,8 @@ msnbc.com##.comments
 ##[class~=commentsList]
 ##[id~=commentslist]
 ##[id~=commentsList]
-##[class~=comments-list]
-~flickr.com##[id~=comments-list]
+~songmeanings.com##[class~=comments-list]
+~flickr.com,~songmeanings.com##[id~=comments-list]
 ##[class~=comments_list]
 ##[id~=comments_list]
 ##div#comments-title
@@ -145,3 +145,4 @@ imgur.com##*.comment
 ~nexusmods.com##.comment-thread
 ##div.pb-comment-wrapper
 ##.jump-to-comments
+##.commentCount
