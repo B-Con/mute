@@ -145,5 +145,4 @@ imgur.com##*.comment
 ~nexusmods.com##.comment-thread
 ##div.pb-comment-wrapper
 ##.jump-to-comments
-facebook.com##._5mym
 ##.commentCount
