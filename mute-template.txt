@@ -137,7 +137,9 @@ schneier.com##div.commentbody
 ! financialcryptography.com
 !Careful, this seems potentially too broad: ##div#comments-body
 ! imgur.com
-imgur.com##div#under-image
+imgur.com###caption_textarea
+imgur.com##.relative.action-bar
+imgur.com##.small.textbox.comments-info
 ! dilbert.com
 ##.SB_Comments
 ! hanselman.com
