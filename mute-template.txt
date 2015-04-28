@@ -95,6 +95,11 @@ msnbc.com##.comments
 ##div#comments-title
 ~stackexchange.com,~stackoverflow.com##a.comments-link
 
+! leftovers that can still be there after hiding comments
+##div.pb-comment-wrapper
+##.jump-to-comments
+##.commentCount
+
 ##ol.comments
 ##ol#comments
 ~wikia.com##ul.comments
