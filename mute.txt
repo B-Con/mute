@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2015-04-26 @ 18:51:26 PDT
-! Checksum: wP/KGtFFN5ACIMdjlcIUZw
+! Last Modified: 2015-04-30 @ 12:24:19 CDT
+! Checksum: zQ2m3tWcAy+npx6Jv2H3nQ
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -44,12 +44,15 @@ msnbc.com##.comments
 ##[class~=commentsList]
 ##[id~=commentslist]
 ##[id~=commentsList]
-##[class~=comments-list]
-~flickr.com##[id~=comments-list]
+~songmeanings.com##[class~=comments-list]
+~flickr.com,~songmeanings.com##[id~=comments-list]
 ##[class~=comments_list]
 ##[id~=comments_list]
 ##div#comments-title
 ~stackexchange.com,~stackoverflow.com##a.comments-link
+##div.pb-comment-wrapper
+##.jump-to-comments
+##.commentCount
 ##ol.comments
 ##ol#comments
 ~wikia.com##ul.comments
@@ -70,7 +73,10 @@ msnbc.com##.comments
 ##div#commentblock
 schneier.com##div.commentbody
 ##section#comments,section.coments
-imgur.com##div#under-image
+imgur.com###caption_textarea
+imgur.com##.relative.action-bar
+imgur.com##.small.textbox.comments-info
+imgur.com##div#comments-container
 ##.SB_Comments
 ##.commentBoxStyle
 ##.c5t_comment_list
