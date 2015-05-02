@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2015-04-27 @ 22:38:39 CDT
-! Checksum: NYwduductJfeKyJ4Ay1BhA
+! Last Modified: 2015-05-02 @ 17:06:38 CDT
+! Checksum: 7Uo0cU+BjQqyM5Uu9SU4jw
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -142,4 +142,5 @@ imgur.com##.small.textbox.comments-info
 ##div#hl-comments
 ##div.discussionContainer
 ###liste_reactions
+##.trb_panelmod_container
 ~nexusmods.com##.comment-thread
