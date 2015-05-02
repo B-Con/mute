@@ -145,6 +145,7 @@ schneier.com##div.commentbody
 imgur.com###caption_textarea
 imgur.com##.relative.action-bar
 imgur.com##.small.textbox.comments-info
+imgur.com##div#comments-container
 ! dilbert.com
 ##.SB_Comments
 ! hanselman.com
