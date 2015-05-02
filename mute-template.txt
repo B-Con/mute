@@ -276,6 +276,8 @@ imgur.com##div#comments-container
 ##div.discussionContainer
 ! lemonde.fr
 ###liste_reactions
+! sun-sentinel.com
+##.trb_panelmod_container
 
 !
 ! MISC
