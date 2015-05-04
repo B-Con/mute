@@ -99,6 +99,7 @@ msnbc.com##.comments
 ##div.pb-comment-wrapper
 ##.jump-to-comments
 ##.commentCount
+##.comment-count
 
 ##ol.comments
 ##ol#comments
