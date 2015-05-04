@@ -87,13 +87,19 @@ msnbc.com##.comments
 ##[class~=commentsList]
 ##[id~=commentslist]
 ##[id~=commentsList]
-##[class~=comments-list]
-~flickr.com##[id~=comments-list]
+~songmeanings.com##[class~=comments-list]
+~flickr.com,~songmeanings.com##[id~=comments-list]
 ##[class~=comments_list]
 ##[id~=comments_list]
 ! ...and accompanying comment headers.
 ##div#comments-title
 ~stackexchange.com,~stackoverflow.com##a.comments-link
+
+! leftovers that can still be there after hiding comments
+##div.pb-comment-wrapper
+##.jump-to-comments
+##.commentCount
+##.comment-count
 
 ##ol.comments
 ##ol#comments
@@ -137,7 +143,10 @@ schneier.com##div.commentbody
 ! financialcryptography.com
 !Careful, this seems potentially too broad: ##div#comments-body
 ! imgur.com
-imgur.com##div#under-image
+imgur.com###caption_textarea
+imgur.com##.relative.action-bar
+imgur.com##.small.textbox.comments-info
+imgur.com##div#comments-container
 ! dilbert.com
 ##.SB_Comments
 ! hanselman.com
@@ -268,6 +277,8 @@ imgur.com##div#under-image
 ##div.discussionContainer
 ! lemonde.fr
 ###liste_reactions
+! sun-sentinel.com
+##.trb_panelmod_container
 
 !
 ! MISC
